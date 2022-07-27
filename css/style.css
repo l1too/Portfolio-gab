@@ -1,0 +1,89 @@
+.header {
+   /* background-image: url("../img/pexels-markus-spiske-225767.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40rem;*/
+
+
+
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(120, 77, 60, 0.605), rgba(0, 0, 0, 0.8)), url(../img/pexels-markus-spiske-225767.jpg) no-repeat center center/cover;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(120, 77, 60, 0.605), rgba(0, 0, 0, 0.8)), url(../img/pexels-markus-spiske-225767.jpg) no-repeat center center/cover; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 38rem;
+
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #fc094e;
+}
+.navbar-toggler {
+    background-color: white;
+}
+
+.header-texto {
+    margin-top: 7rem;
+    text-align: center;
+}
+.header-texto h1, .header-texto p {
+    color: white;
+}
+.header-texto h1 {
+    font-size: 3.6rem;
+}
+.header-texto p {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Sobre Mi*/
+
+.sobre-mi {
+    height: 40rem;
+    padding: 0;
+    margin: 0;
+}
+.row {
+    padding: 0;
+}
+
+.sobre-mi h1 {
+    padding-top: 1rem;
+    font-size: 3.6rem;
+    text-align: center;
+    color: #fc094e;
+    margin: 0;
+}
+.sobre-mi h2, p {
+    text-align: center;
+    color: rgb(144, 45, 6);
+}
+
+.sobre-mi img {
+    height: 22rem;
+    width: 22rem;
+    margin-left: 5rem;
+}
+.about-text h2 {
+    font-size: 2.8rem;
+}
+.about-text {
+    line-height: 2.5;
+    margin-right: 5rem;
+}
+.about-text p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.about-title {
+    width: 100%;
+}
