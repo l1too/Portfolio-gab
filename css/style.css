@@ -1,17 +1,11 @@
+
+/* HEADER */
+
 .header {
-   /* background-image: url("../img/pexels-markus-spiske-225767.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 40rem;*/
-
-
-
     background: #E8CBC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(120, 77, 60, 0.605), rgba(0, 0, 0, 0.8)), url(../img/pexels-markus-spiske-225767.jpg) no-repeat center center/cover;  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(120, 77, 60, 0.605), rgba(0, 0, 0, 0.8)), url(../img/pexels-markus-spiske-225767.jpg) no-repeat center center/cover; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 38rem;
-
 }
 
 .nav-link {
@@ -44,7 +38,7 @@ img {
     width: 100%;
 }
 
-/* Sobre Mi*/
+/* ABOUT */
 
 .sobre-mi {
     height: 40rem;
@@ -88,7 +82,7 @@ img {
     width: 100%;
 }
 
-/** CARDS **/
+/** PROJECTS **/
 .cards {
     background-color: #402C3A;
     height: 38rem;
@@ -126,6 +120,9 @@ img {
     background: url(../img/QG.png) no-repeat center center/cover;
     height: auto;
 }
+
+/* CONTACT */
+
 .contacto {
     height: 38rem;
 }
@@ -136,4 +133,22 @@ img {
 .contacto-titulo {
     color: #fc094e;
     font-size: 3.8rem;
+}
+
+form .texto-area {
+    height: 15rem;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 2rem;
+    background-color: #402C3A;
+    justify-content: center;
+}
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+    padding: .8rem;
 }

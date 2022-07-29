@@ -29,14 +29,14 @@
 
                     <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link fs-4" aria-current="page" href="#">About Me</a>
+                        <a class="nav-link fs-4" aria-current="page" href="#about">About Me</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fs-4" href="#">Projects</a>
+                        <a class="nav-link fs-4" href="#cards">Projects</a>
                       </li>
         
                       <li class="nav-item">
-                        <a class="nav-link fs-4" href="#">Resume</a>
+                        <a class="nav-link fs-4" href="#contacto">Contact</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link fs-4" href="#">Login</a>
@@ -54,7 +54,7 @@
 
     </header>
 
-    <section class="container-fluid sobre-mi row">
+    <section class="container-fluid sobre-mi row" id="about">
 
       <h1 class="about-title fw-bold ">About Me</h1>
 
@@ -72,7 +72,7 @@
  
 
       <!-- CARDS -->
-      <section class=" cards ">
+      <section class="cards" id="cards">
 
         <h2 class="text-center fw-bold cards-text">Fronted Projects</h2>
 
@@ -131,54 +131,33 @@
 
       </section>
 
-      <section class="contacto" >
+      <section class="contacto" id="contacto">
         <h1 class="text-center contacto-titulo fw-bold" >Cotact Me</h1>
         <form class="row g-3 form ">
-          <div class="col-md-6">
+          <div class="col-12">
             <label class="form-label" for="specificSizeInputName">Nombre</label>
             <input type="text" class="form-control" id="specificSizeInputName" >
           </div>
-          <div class="col-md-6">
+          <div class="col-12">
             <label for="inputEmail4" class="form-label">Email</label>
             <input type="email" class="form-control" id="inputEmail4">
           </div>
+
+          <div class="col-12 ">
+            <label for="exampleFormControlTextarea1" class="form-label ">Example textarea</label>
+            <textarea class="form-control texto-area" id="exampleFormControlTextarea1"></textarea>
+          </div>
+
           <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
         </form>
 
       </section>
+
+      <footer class="footer">
+        <p class="">Gabriel Nahuel Quiroga. Todos los derechos reservados.</p>
+      </footer>
 
 
 
